@@ -1,0 +1,28 @@
+{
+	"name": "array-apply-partial-diff",
+	"version": "0.1.0",
+	"description": "Apply a diff of a subset of an array on the whole array",
+	"type": "module",
+	"author": "Auke van Slooten <auke@muze.nl>",
+	"keywords": [
+		"diff"
+	],
+	"homepage": "https://github.com/muze-nl/array-apply-partial-diff",
+	"license": "MIT",
+	"main": "./src/apply.mjs",
+	"scripts": {
+		"test": "tap test/*.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/muze-nl/array-apply-partial-diff.git"
+	},
+	"devDependencies": {
+		"eslint": "^8.48.0",
+		"tap": "~16.3.7"
+	},
+	"files": [
+		"src/",
+		"README.md"
+	]
+}
